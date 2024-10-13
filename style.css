@@ -1,0 +1,61 @@
+/* STYLING FOR THE CURRENT CONTENT */
+#main-container{
+    color: rgb(15, 8, 99);
+    padding: 50px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    background-color: rgb(217, 217, 235);
+}
+
+/* STYLING FOR THE TITLE AND HEADER */
+#main-header {
+    display: flex;             
+    justify-content: center;   
+    align-items: center; 
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-size: 20px;          
+    color: #39044b;
+    padding: 50px 50px 5px 50px; 
+}
+
+
+h1{
+    display: flex;             
+    justify-content: center;   
+    align-items: center; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 45px;          
+    color: #10047d;
+    padding: 50px 50px 5px 50px;
+}
+
+html, body {
+    margin: 0;                 
+    padding: 0;              
+    overflow-x: hidden;         
+    width: 100%;                
+}
+
+/* STYLING FOR THE BUTTONS */
+#navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#navigation-buttons button {
+    background-color: #3a065c;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5%;
+}
+
+#navigation-buttons button:hover {
+    background-color: #181152;
+}
+
